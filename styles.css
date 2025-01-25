@@ -5,12 +5,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #FFFFFF; /* White background */
+    background-color: #FFFFFF; 
 }
 
 .navbar {
-    background-color: #483D8B; /* Dark Slate Blue */
-    color: #FFFFFF; /* White text for contrast */
+    background-color: #483D8B; 
+    color: #FFFFFF; 
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -23,13 +23,13 @@ body {
 
 .container {
     display: flex;
-    margin-top: 60px; /* Space for fixed navbar */
+    margin-top: 60px; 
     padding: 20px;
 }
 
 .left-menu {
     width: 20%;
-    background-color: #FFFFFF; /* White for the left menu */
+    background-color: #FFFFFF;
     padding: 15px;
     border-right: 1px solid #ddd;
     transition: width 0.3s;
@@ -38,21 +38,21 @@ body {
 .main-content {
     width: 60%;
     padding: 15px;
-    background-color: #F5F5F5; /* Light Gray for the main content */
+    background-color: #F5F5F5;
     border: 1px solid #ddd;
     margin: 0 10px;
 }
 
 .right-panel {
     width: 20%;
-    background-color: #F08080; /* Light Coral for the right panel */
+    background-color: #F08080; 
     padding: 15px;
     border-left: 1px solid #ddd;
 }
 
 footer {
-    background-color: #483D8B; /* Dark Slate Blue */
-    color: #FFFFFF; /* White text for contrast */
+    background-color: #483D8B; 
+    color: #FFFFFF; 
     text-align: center;
     padding: 10px;
     position: relative;
@@ -61,18 +61,18 @@ footer {
 }
 
 .toggle-menu {
-    background: #F08080; /* Light Coral for the toggle button */
+    background: #F08080; 
     border: none;
-    color: #FFFFFF; /* White text for contrast */
+    color: #FFFFFF; 
     font-size: 24px;
     cursor: pointer;
     padding: 5px 10px;
-    border-radius: 5px; /* Rounded corners for the button */
+    border-radius: 5px;
 }
 
 .collapsed {
     display: none;
-    background-color: #F08080; /* Light Coral for the toggle list */
+    background-color: #F08080; 
     padding: 10px;
     border: 1px solid #ddd;
 }
